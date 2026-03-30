@@ -1,6 +1,5 @@
-// src/ros/hooks/useTopic.js
 import { useEffect, useState, useRef } from 'react';
-import ROSLIB from 'roslib';
+import * as ROSLIB from 'roslib';
 import ros from '../rosClient';
 
 export function useTopic(name, messageType, options = {}) {

@@ -1,4 +1,4 @@
-import ROSLIB from 'roslib';
+import * as ROSLIB from 'roslib';
 
 const ros = new ROSLIB.Ros({
   url: import.meta.env.VITE_ROSBRIDGE_URL
