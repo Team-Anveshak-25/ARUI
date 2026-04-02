@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="bg-stone-950">
       <Title />
-      <div className="flex flex-row gap-2 mt-4">
+      <div className="flex flex-row flex-wrap gap-2 mt-4">
         <NetworkStatus />
         <RoverInfo />
       </div>
