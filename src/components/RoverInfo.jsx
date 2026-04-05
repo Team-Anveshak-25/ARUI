@@ -17,7 +17,7 @@ export function RoverInfo() {
   const long      = gnss?.longitude.toFixed(6) ?? '—';
 
   return (
-    <div className="bg-black border border-red-600 rounded-lg p-3 w-64 font-mono">
+    <div className="bg-black border-2 border-red-600 rounded-lg p-3 w-64 font-mono">
 
       {/* title */}
       <h2 className="text-red-600 text-2xl font-bold border-b border-red-600 pb-1 mb-3">
