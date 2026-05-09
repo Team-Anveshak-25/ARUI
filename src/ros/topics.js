@@ -5,4 +5,6 @@ export const TOPICS = {
   CONFIG:      '/config',
   ARM:         '/enc_arm',
   GNSS:        '/gnss',
+  ARM_STATE:   '/arm_state',
+  INPUT_SPACE: '/input_space'
 }

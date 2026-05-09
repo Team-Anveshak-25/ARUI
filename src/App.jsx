@@ -5,6 +5,7 @@ import { CameraPanel } from "./components/CameraPanel";
 import React, { useState } from "react";
 import { NeonAnveshakLogo } from "./components/NeonAnveshakLogo";
 import { MapPanel } from "./components/MapPanel";
+import { ArmVisualizer } from "./components/ArmVisualizer";
 
 function App() {
   const [isStarting, setIsStarting] = useState(false);
@@ -51,10 +52,12 @@ function App() {
         >
           <Title />
           <div className="flex flex-row flex-wrap gap-2 mt-4">
+            <ArmVisualizer />
             <NetworkStatus />
             <RoverInfo />
             <CameraPanel />
             <MapPanel />
+            
           </div>
         </div>
 
