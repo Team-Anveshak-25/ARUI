@@ -4,6 +4,7 @@ import { Title } from "./components/Title";
 import { CameraPanel } from "./components/CameraPanel";
 import React, { useState } from "react";
 import { NeonAnveshakLogo } from "./components/NeonAnveshakLogo";
+import { MapPanel } from "./components/MapPanel";
 
 function App() {
   const [isStarting, setIsStarting] = useState(false);
@@ -24,14 +25,8 @@ function App() {
       
       {/* Start Screen (Disappears when clicked) */}
       {!isStarting && (
-        <div 
-          onClick={handleStart}
-          className="absolute inset-0 flex flex-col items-center justify-center cursor-pointer z-50 bg-stone-950"
-        >
+        <div onClick={handleStart} className="absolute inset-0 flex flex-col items-center justify-center cursor-pointer z-50 bg-stone-950">
           <NeonAnveshakLogo />
-          <h1 className="text-red-600 text-3xl font-mono hover:text-red-600 select-none animate-pulse duration-300 transition-colors">
-           Press Start!
-          </h1>
         </div>
       )}
 
@@ -59,6 +54,7 @@ function App() {
             <NetworkStatus />
             <RoverInfo />
             <CameraPanel />
+            <MapPanel />
           </div>
         </div>
 
