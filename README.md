@@ -25,7 +25,7 @@ Still havent figured this thing out.
 * __Camera Panel__: The Camera Panel widget takes too much space and it would be better if there were only three sliders and we choose via dropdown or some other method to select which camera we want to alter. This will reduce the widget size for putting other components.
 * __Camera Feed__: A widget that will take camera feed from the webcameras and place it in the GUI. We will click on this to send the location for the arm to go autonomously to. 
 * __Map Widget__: There are some problems with the Map widget, some of them being 'Follow Rover' button does not work. These issues mainly came when we ported from the Python-based GUI to React-based GUI.
-* __Arm Info__: Some more arm information would be needed, like "Goal received", "Goal not reachable", "Distance from goal" and stuff like this. This is dependent on the final pipeline we decide for the competition, and this feature will keep getting changed during field testing.
+* __Arm Info__: Some more arm information would be needed, like "Goal received", "Goal not reachable", "Distance from goal" and stuff like this. This is dependent on the final pipeline we decide for the competition, and this feature will keep getting changed during field testing.    
 
 # Installation and Development
 
